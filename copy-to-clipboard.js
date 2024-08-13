@@ -6,7 +6,7 @@
 * @param { time } is in millisecond for displaying message -> optional, pass "skip" to skip hiding the notification
 * @param { bg_color } is the background color of the selected text -> optional, pass "skip" to skip changing the background color
 */
-function copyData(selector, notiID = "neutral_success", msg = "Copied successfully.", time = 3000, bg_color = "#d9f2f7") {
+function copyData(selector, notiID = "class_name", msg = "Copied successfully.", time = 3000, bg_color = "#d9f2f7") {
   // Determine if the selector is an ID or class
   let element;
   if (selector.startsWith('#')) {
